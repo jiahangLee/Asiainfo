@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+	<title>task1</title>
+</head>
+<body>
+	<div id="root"></div>
+</body>
+<script src="build/react.js"></script>
+    <script src="build/react-dom.js"></script>
+    <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
+    <script type = "text/babel">
+    const user = {
+    	firstName:'lee',
+    	lastname:'jiahang'
+    }
+    function formatName(user){
+    	return user.firstName + '/' + user.lastname;
+    }
+    const element = (
+    	<h1>
+    	hello,{formatName(user)}!
+    	</h1>
+    	);
+    ReactDOM.render(
+		element,
+		document.getElementById('root')
+    );
+    </script>
+</html>
