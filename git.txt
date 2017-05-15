@@ -1,5 +1,8 @@
 1.git init初始化
-2.git remote add origin git@github.com:Traveler111/Test.git建立远程分支连接github
+2.
+git remote add origin git@github.com:Traveler111/Test.git
+git remote add origin https://github.com/jiahanglee/language-study.git
+建立远程分支连接github
 
 3.git clone +url 可以直接将github上的下载到本地
 
